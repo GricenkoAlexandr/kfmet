@@ -1,0 +1,92 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 5px 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+body {
+    background: url(img/kiev.jpg) no-repeat fixed center ;
+    background-size: 100% 100%;
+}
+
+.wrapper {
+    background-color: rgba(121, 247, 4, 0.2);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.htext {
+    color: rgb(16, 151, 56);
+    font-style: italic;
+}
+
+.wartext {
+    color: rgb(226, 6, 6);
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.contdata {
+    background-color: rgba(24, 231, 197, 0.2);
+    min-width: 200px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.contrezdata {
+    background-color: rgba(231, 24, 179, 0.9);
+}
+
+.out-1,
+.out-2 {
+    color: #f3097e;
+    font-size: 24px;
+    font-weight: 600;
+    font-style: italic;
+    margin: 15px;
+}
+
+.rezdata {
+    color: #180488;
+    font-size: 22px;
+    font-weight: 600;
+    font-style: italic;
+    margin: 15px;
+}
+
+.rezdata h2 {
+    color: #0307df;
+}
+
+.outrez {
+    color: rgb(235, 8, 8);
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.btnrez {
+    padding: 10px;
+    color: #ff0055;
+    font-size:24px;
+    font-weight: 700;
+    font-style: italic;
+    border-radius: 10px;
+    background-color: rgba(51, 238, 34, 0.973);
+}
+
+.hcont,
+.hside,
+.tenprice,
+.tenkol,
+.selectmet,
+.dside {
+    background-color: rgb(0, 255, 200);
+    height: 28px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Просчёт стальных контейнеров</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1 class="htext">Калькулятор просчёта цены стального контейнера</h1>
+        <p class="wartext">Перед тем, как нажать на кнопку рассчётов, внесите все данные в калькулятор, 
+            в противном случае, рассчёт будет некорректным!!! </p>
+        <div class="contdata">
+            <h2>Блок ввода данных</h2>
+            <div class="tender">
+                Ожидаемая стоимость, грн:
+                <input type="number" name="" id="" class="tenprice">
+                Количество единиц, шт.:
+                <input type="number" name="" id="" class="tenkol"><br>
+            </div>
+            <div class="material">
+                Толщина металла, мм:
+                <select class="selectmet">
+                    <option value="0"></option>
+                    <option value="535">2</option>
+                    <option value="688">2,5</option>
+                    <option value="812">3</option>
+                </select>
+            </div>
+            <div class="contindata">
+                Высота, мм:
+                <input type="number" name="" id="" class="hcont">
+                Верхняя часть, мм:
+                <input type="number" name="" id="" class="hside">
+                Нижняя часть, мм:
+                <input type="number" name="" id="" class="dside">
+            </div>
+            <div class="contrezdata">
+                <h2>Рассчётные данные контейнера</h2>
+                Обьём, м.куб: <span class="out-v"></span><br>
+                Площадь. м.кв: <span class="out-s"></span><br>
+            </div>
+            
+            <button type="submit" class="btnrez">Нажать для результата</button>
+        </div>
+        <div class="rezdata">
+            <h2>Результаты согласно введённым данным</h2>
+            Тендерная цена одной единицы, грн:<span class="out-1">0</span><br>
+
+            Цена изготовленной нами единицы, грн:<span class="out-2">0</span><br>
+            <div class="outrez"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
