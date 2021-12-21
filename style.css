@@ -21,6 +21,11 @@ body {
     align-items: center;   
 }
 
+.image img{
+    height: 400px;
+    margin: 10px auto;
+}
+
 .htext {
     color: rgb(16, 151, 56);
     font-style: italic;
