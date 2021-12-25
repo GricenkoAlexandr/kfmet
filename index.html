@@ -15,29 +15,32 @@
         <div class="contdata">
             <h2>Блок ввода данных</h2>
             <div class="tender">
-                Ожидаемая стоимость (тендер), грн:
-                <input type="number" name="" id="" class="tenprice">
-                Количество единиц (тендер), шт.:
+                <p> Ожидаемая стоимость (тендер), грн:</p>
+                <input type="number" name="" id="" class="tenprice"><br>
+                <p> Количество единиц (тендер), шт.:</p>
                 <input type="number" name="" id="" class="tenkol"><br>
             </div>
             <div class="image">
                 <img src="img/kont1.jpg" alt="Размеры контейнера">
             </div>
             <div class="material">
-                Толщина металла, мм:
+                
+               <p> Толщина металла, мм:</p>
                 <select class="selectmet">
                     <option value="0"></option>
-                    <option value="535">2</option>
+                    <option value="950">Нерж. 1 мм</option>
+                    <option value="436">Оцинк. 1 мм</option>
+                    <option value="571">2</option>
                     <option value="688">2,5</option>
                     <option value="812">3</option>
                 </select>
             </div>
             <div class="contindata">
-                Высота контейнера (h), мм:
+                <p>Высота контейнера (h), мм:</p>
                 <input type="number" name="" id="" class="hcont">
-                Верхняя часть (w), мм:
+                <p>Верхняя часть (w), мм:</p>
                 <input type="number" name="" id="" class="hside">
-                Нижняя часть (l), мм:
+                <p>Нижняя часть (l), мм:</p>
                 <input type="number" name="" id="" class="dside">
             </div>
             <div class="contrezdata">
@@ -46,13 +49,13 @@
                 Площадь. м.кв: <span class="out-s"></span><br>
             </div>
             
-            <button type="submit" class="btnrez">Нажать для результата</button>
+            <button type="submit" class="btnrez">Нужен результат - жмакай сюда</button>
         </div>
         <div class="rezdata">
             <h2>Результаты согласно введённым данным</h2>
-            Тендерная цена одной единицы, грн:<span class="out-1">0</span><br>
+            <p> Тендерная цена одной единицы, грн:</p><span class="out-1">0</span><br>
 
-            Цена изготовленной нами единицы, грн:<span class="out-2">0</span><br>
+            <p> Цена KF-Systems за единиц, грн:</p><span class="out-2">0</span><br>
             <div class="outrez"></div>
         </div>
     </div>
